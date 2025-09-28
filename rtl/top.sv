@@ -20,5 +20,5 @@ module top(
   output logic                   cmp_out
 );
 
-    MiniALU u_miniALU (.*);
+    rtl u_rtl (.*);
 endmodule

@@ -1,0 +1,1156 @@
+{
+    "tests": [
+        {
+            "rst_n": "false",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        },
+        {
+            "rst_n": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand"
+        }
+    ]
+}

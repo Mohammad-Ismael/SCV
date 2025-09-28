@@ -8,10 +8,11 @@
 #include "transactor.h"
 #include "comparator.h" // Add this
 
+
 int sc_main(int argc, char *argv[])
 {
     sc_core::sc_report_handler::set_actions("/IEEE_Std_1666/deprecated", sc_core::SC_DO_NOTHING);
-    std::string json_file = (argc > 1) ? argv[1] : "stimule/stimuli1.json";
+    std::string json_file = (argc > 1) ? argv[1] : "stimule/stimuli_big_alu.json";
 
     TimingController tc("timing_controller");
 
@@ -37,6 +38,7 @@ int sc_main(int argc, char *argv[])
     // Bind comparator sockets
     rm.socket_comparator.bind(comparator.socket_rm);
     transactor.socket_comparator.bind(comparator.socket_rtl);
+
 
     sc_core::sc_start();
     return 0;

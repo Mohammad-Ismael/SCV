@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// MiniALU: 8-bit registered ALU
+// rtl: 8-bit registered ALU
 // - 10 inputs, 5 outputs
 // - Ops: ADD, SUB, AND, OR, XOR, LSL, LSR, ASR
 // - Optional saturation on ADD/SUB
@@ -25,7 +25,7 @@
 //   negative            : y[7]
 //   cmp_out             : compare result per cmp_mode
 //------------------------------------------------------------------------------
-module MiniALU(
+module rtl(
   // 10 inputs
   input  logic                   clk,
   input  logic                   rst_n,        // sync reset (active-low)
