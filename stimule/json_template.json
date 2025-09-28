@@ -1,0 +1,15 @@
+{
+    "tests": [
+        {
+            "rst_n": "true",
+            "en": "true",
+            "op": "rand",
+            "a": "rand",
+            "b": "rand",
+            "carry_in": "true",
+            "sat_enable": "true",
+            "cmp_mode": "rand",
+            "shift_amt": "rand"
+        }
+    ]
+}
