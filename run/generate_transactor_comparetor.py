@@ -117,6 +117,7 @@ def generate_transactor(ports, output_path):
 #include <systemc>
 #include <tlm>
 #include <tlm_utils/simple_target_socket.h>
+#include <iostream>  //
 #include "custom_data.h"
 #include "debug.h"
 #include "verilated/obj_dir/Vtop.h"
@@ -124,6 +125,7 @@ def generate_transactor(ports, output_path):
 #include "comparator.h"
 #include "output_struct.h"
 
+using namespace std;  //
 using namespace sc_core;
 
 SC_MODULE(Transactor)
@@ -181,9 +183,9 @@ SC_MODULE(Transactor)
                 std::cout << "\\033[1;31m"
                           << sc_time_stamp()
                           << " | Transactor | RTL Outputs:"{''.join(print_outputs)}
-                          << "\\033[0m" << endl;
-                cout << "\\033[1;31mIIIII===================  RTL Process Completed  ====================IIIII\\033[0m\\n"
-                     << endl;
+                          << "\\033[0m" << std::endl;
+                std::cout << "\\033[1;31mIIIII===================  RTL Process Completed  ====================IIIII\\033[0m\\n"
+                     << std::endl;
             }}
         }}
         trans.set_response_status(tlm::TLM_OK_RESPONSE);
