@@ -37,17 +37,18 @@ def map_to_comparator_type(rtl_type):
         return 'int32_t'
 
 def generate_output_struct(output_ports, output_path):
-    """Generate output_struct.h with OutputStruct definition"""
+    """Generate output_struct.h with EXACT RTL output types"""
     if not output_ports:
-        comp_type = "int32_t"
-        struct_def = f"""struct OutputStruct {{
-    {comp_type} value;
-}};"""
+        # Fallback to single output (shouldn't happen in practice)
+        struct_def = """struct OutputStruct {
+    int32_t value;
+};"""
     else:
+        # Use EXACT RTL types - no mapping/conversion!
         comp_fields = []
         for port in output_ports:
-            comp_type = map_to_comparator_type(port['type'])
-            comp_fields.append(f"    {comp_type} {port['name']};")
+            # Use the original RTL type exactly as defined
+            comp_fields.append(f"    {port['type']} {port['name']};")
         
         struct_def = f"""struct OutputStruct {{
 {chr(10).join(comp_fields)}
@@ -67,7 +68,6 @@ def generate_output_struct(output_ports, output_path):
     with open(output_path, 'w') as f:
         f.write(template)
     print(f"✅ Generated {output_path}")
-
 def generate_transactor(ports, output_path):
     """Generate transactor.h that sends ALL outputs to comparator"""
     inputs = [p for p in ports if p['direction'] == 'in' and p['name'] != 'clk']

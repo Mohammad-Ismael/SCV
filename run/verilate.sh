@@ -56,13 +56,7 @@ echo "  -lVtop -lverilated"
 python3 run/generate_custom_data.py verilated/obj_dir/Vtop.h custom_data.h json_template.json
 python3 run/generate_transactor_comparetor.py verilated/obj_dir/Vtop.h transactor.h comparator.h output_struct.h
 python3 run/generate_rand_const.py verilated/obj_dir/Vtop.h rand_const.h rand_const.cpp
+python3 run/generate_dummy_rm.py output_struct.h ./
 echo "Run for the first time:"
 
-rm -rf sim
-clear
-echo "Start Compiling" 
-g++   -Iverilated/obj_dir   -I$SYSTEMC_HOME/include   -I/usr/share/verilator/include   -I/usr/share/verilator/include/vltstd   -L$SYSTEMC_HOME/lib-linux64   -Lverilated/obj_dir   *.cpp   -lVtop -lverilated   -lsystemc -lpthread -lm   -std=c++17 -o sim
-echo "Start Simulation"
-./sim
-rm -rf sim
-
+bash run/run.sh
