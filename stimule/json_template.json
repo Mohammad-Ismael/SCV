@@ -1,18 +1,5 @@
 {
     "tests": [
-        {
-            "rst_n": "true",
-            "sel": "rand",
-            "port0_in": "rand",
-            "port1_in": "rand",
-            "port2_in": "rand",
-            "port3_in": "rand",
-            "port4_in": "rand",
-            "port5_in": "rand",
-            "port6_in": "rand",
-            "port7_in": "rand",
-            "port8_in": "rand",
-            "port9_in": "rand"
-        }
+        {}
     ]
 }

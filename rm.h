@@ -42,25 +42,18 @@ SC_MODULE(RM)
         }
 
         trans.set_response_status(tlm::TLM_OK_RESPONSE);
-        int32_t y = calculate_y(data.rst_n, data.en, data.op, data.a, data.b, data.carry_in, data.sat_enable, data.cmp_mode, data.shift_amt);
-        bool carry_out = calculate_carry_out(data.rst_n, data.en, data.op, data.a, data.b, data.carry_in, data.sat_enable, data.cmp_mode, data.shift_amt);
-        bool zero = calculate_zero(data.rst_n, data.en, data.op, data.a, data.b, data.carry_in, data.sat_enable, data.cmp_mode, data.shift_amt);
-        bool negative = calculate_negative(data.rst_n, data.en, data.op, data.a, data.b, data.carry_in, data.sat_enable, data.cmp_mode, data.shift_amt);
-        bool cmp_out = calculate_cmp_out(data.rst_n, data.en, data.op, data.a, data.b, data.carry_in, data.sat_enable, data.cmp_mode, data.shift_amt);
+        
+        // 🔴 DUMMY REFERENCE MODEL - AUTO-GENERATED 🔴
+        // This is a placeholder RM. Replace with actual logic!
+        
+        // Initialize dummy outputs (dynamically generated from OutputStruct)
+        int32_t value = 0;
 
         OutputStruct output;
-        output.y = static_cast<int32_t>(y);
-        output.carry_out = static_cast<bool>(carry_out);
-        output.zero = static_cast<bool>(zero);
-        output.negative = static_cast<bool>(negative);
-        output.cmp_out = static_cast<bool>(cmp_out);
+        output.value = value;
         send_to_comparator(output);
     } 
-    int32_t calculate_y(bool rst_n, bool en, int32_t op, int32_t a, int32_t b, bool carry_in, bool sat_enable, int32_t cmp_mode, int32_t shift_amt);
-    int32_t calculate_carry_out(bool rst_n, bool en, int32_t op, int32_t a, int32_t b, bool carry_in, bool sat_enable, int32_t cmp_mode, int32_t shift_amt);
-    int32_t calculate_zero(bool rst_n, bool en, int32_t op, int32_t a, int32_t b, bool carry_in, bool sat_enable, int32_t cmp_mode, int32_t shift_amt);
-    int32_t calculate_negative(bool rst_n, bool en, int32_t op, int32_t a, int32_t b, bool carry_in, bool sat_enable, int32_t cmp_mode, int32_t shift_amt);
-    int32_t calculate_cmp_out(bool rst_n, bool en, int32_t op, int32_t a, int32_t b, bool carry_in, bool sat_enable, int32_t cmp_mode, int32_t shift_amt);
+
     void send_to_comparator(const OutputStruct &output);
 };
 

@@ -1,0 +1,13 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.57+244 (git sha1 60c551f96, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)
+
+-- Executing script file `run/synth.tcl' --
+
+1. Executing Liberty frontend: ./synthesis_lib/NangateOpenCellLibrary_typical.lib
+Imported 135 cell types from liberty file.
+ERROR: File `./rtl/rtl.sv' not found or is a directory

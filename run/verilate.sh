@@ -10,12 +10,12 @@ TEMP_DIR="verilated/obj_dir"
 OUTPUT_DIR="verilated"
 VERILATOR_INCLUDE="/usr/share/verilator/include"
 
-# Check if RTL files exist
-if [ ! -f "$RTL_DIR/rtl.sv" ] || [ ! -f "$RTL_DIR/top.sv" ]; then
-    echo "❌ Error: Missing RTL files in $RTL_DIR/"
-    echo "Expected: rtl.sv, top.sv"
-    exit 1
-fi
+# # Check if RTL files exist
+# if [ ! -f "$RTL_DIR/rtl.sv" ] || [ ! -f "$RTL_DIR/top.sv" ]; then
+#     echo "❌ Error: Missing RTL files in $RTL_DIR/"
+#     echo "Expected: rtl.sv, top.sv"
+#     exit 1
+# fi
 
 # Create output directory
 mkdir -p "$OUTPUT_DIR"
@@ -27,12 +27,20 @@ verilator \
   --sc \
   --build \
   -j \
+  --timing \
+  --Wno-fatal  \
   -Wall \
   --trace \
   --Mdir "$OUTPUT_DIR/obj_dir" \
   --top-module top \
-  "$RTL_DIR/top.sv" \
-  "$RTL_DIR/rtl.sv" \
+  "$RTL_DIR/clk_rst_controller.sv"\
+    "$RTL_DIR/dec.sv"\
+    "$RTL_DIR/exu.sv"\
+    "$RTL_DIR/ifu.sv"\
+    "$RTL_DIR/main_memory.sv"\
+    "$RTL_DIR/riscv_processor_tb.sv"\
+    "$RTL_DIR/riscv_processor.sv"\
+    "$RTL_DIR/wb.sv"\
   -CFLAGS "-std=c++17"
 
 # cp "$TEMP_DIR/Vtop.h" ./
