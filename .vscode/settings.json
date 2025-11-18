@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "rmcpp": "cpp",
-        "rmh": "cpp"
+        "rmh": "cpp",
+        "iostream": "cpp"
     }
 }

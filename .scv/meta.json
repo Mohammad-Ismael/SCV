@@ -1,0 +1,3573 @@
+{
+    "components": {
+        "Compare_6": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated Compare component",
+                "documentation": "Component documentation for Compare",
+                "editable": true,
+                "keywords": [
+                    "Compare",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "Compare",
+                "tags": [
+                    "Compare",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connectedFilePath": "C:/Users/HKhaled/Documents/SCV/comparator.h",
+            "connections": {
+                "connectionCount": 2,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:14",
+                        "sourceId": "Transactor_5",
+                        "sourcePort": {
+                            "x": 100,
+                            "y": 66.66666666666667
+                        },
+                        "wireId": "wire_Transactor_5_Compare_6_1762247054649"
+                    },
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:16",
+                        "sourceId": "RM_4",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 40
+                        },
+                        "wireId": "wire_RM_4_Compare_6_1762247056221"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:16",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                ],
+                "totalConnections": 2
+            },
+            "created": "2025-11-04T10:34:59",
+            "createdTimestamp": 1762245299737,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": 248.35111133079005,
+                    "originalY": 31.571090133977393,
+                    "x": 248.35111133079005,
+                    "y": 31.571090133977393
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T10:34:59",
+                "droppedAtTimestamp": 1762245299742,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 1070,
+                    "y": 456
+                },
+                "snapToGrid": false,
+                "sourceComponent": "Compare"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": 248.35111133079005,
+                    "originalY": 31.571090133977393,
+                    "snapToGrid": true,
+                    "x": 248.35111133079005,
+                    "y": 31.571090133977393
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component Compare created via drag-drop",
+                    "timestamp": "2025-11-04T10:34:59",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:34:59",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:14",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:16",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-05T09:30:36",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:34:59",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "Compare_6",
+            "lastAccessed": "2025-11-05T09:30:36",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "Compare",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245299742",
+                "timestamp": "2025-11-04T10:34:59",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-05T09:30:36",
+                "moveCount": 0,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 4
+            },
+            "type": "Compare",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:34:59",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "Driver_3": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated Driver component",
+                "documentation": "Component documentation for Driver",
+                "editable": true,
+                "keywords": [
+                    "Driver",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "Driver",
+                "tags": [
+                    "Driver",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connectedFilePath": "C:/Users/HKhaled/Documents/SCV/driver.h",
+            "connections": {
+                "connectionCount": 2,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:01",
+                        "sourceId": "Stimuler_2",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 40
+                        },
+                        "wireId": "wire_Stimuler_2_Driver_3_1762247041827"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:08",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:07",
+                        "targetId": "RM_4",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 40
+                        },
+                        "wireId": "wire_Driver_3_RM_4_1762247047034"
+                    },
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:08",
+                        "targetId": "Transactor_5",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 66.66666666666667
+                        },
+                        "wireId": "wire_Driver_3_Transactor_5_1762247048807"
+                    }
+                ],
+                "totalConnections": 2
+            },
+            "created": "2025-11-04T10:34:37",
+            "createdTimestamp": 1762245277709,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": -156.63042417387115,
+                    "originalY": 27.541423114030522,
+                    "x": -156.63042417387115,
+                    "y": 27.541423114030522
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T10:34:37",
+                "droppedAtTimestamp": 1762245277713,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 668,
+                    "y": 452
+                },
+                "snapToGrid": false,
+                "sourceComponent": "Driver"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": -156.63042417387115,
+                    "originalY": 27.541423114030522,
+                    "snapToGrid": true,
+                    "x": -192.89742735339303,
+                    "y": 20.489505829123473
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component Driver created via drag-drop",
+                    "timestamp": "2025-11-04T10:34:37",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:34:37",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-156.63, 26.534)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-157.638, 26.534)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-158.645, 26.534)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-165.697, 22.5043)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-166.705, 21.4969)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-173.757, 14.445)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-176.779, 11.4228)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-177.786, 11.4228)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-177.786, 10.4153)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-178.794, 10.4153)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-179.801, 10.4153)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-180.808, 10.4153)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-180.808, 11.4228)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-181.816, 11.4228)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-185.846, 14.445)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-185.846, 15.4524)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-187.86, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-188.868, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-189.875, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-189.875, 17.4673)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-190.883, 17.4673)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-191.89, 18.4747)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-191.89, 19.4821)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-192.897, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:38",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:01",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:07",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:08",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-05T09:26:38",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:34:37",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "Driver_3",
+            "lastAccessed": "2025-11-05T09:26:38",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "Driver",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245277713",
+                "timestamp": "2025-11-04T10:34:37",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-05T09:26:38",
+                "moveCount": 24,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 5
+            },
+            "type": "Driver",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:34:37",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "RM_4": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated RM component",
+                "documentation": "Component documentation for RM",
+                "editable": true,
+                "keywords": [
+                    "RM",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "RM",
+                "tags": [
+                    "RM",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connectedFilePath": "C:/Users/HKhaled/Documents/SCV/rm.cpp",
+            "connections": {
+                "connectionCount": 1,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:07",
+                        "sourceId": "Driver_3",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 26.666666666666668
+                        },
+                        "wireId": "wire_Driver_3_RM_4_1762247047034"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:16",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:16",
+                        "targetId": "Compare_6",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 26.666666666666668
+                        },
+                        "wireId": "wire_RM_4_Compare_6_1762247056221"
+                    }
+                ],
+                "totalConnections": 1
+            },
+            "created": "2025-11-04T10:34:41",
+            "createdTimestamp": 1762245281915,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": 61.979011658246975,
+                    "originalY": -88.31150370944222,
+                    "x": 61.979011658246975,
+                    "y": -88.31150370944222
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T10:34:41",
+                "droppedAtTimestamp": 1762245281918,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 885,
+                    "y": 337
+                },
+                "snapToGrid": false,
+                "sourceComponent": "RM"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": 61.979011658246975,
+                    "originalY": -88.31150370944222,
+                    "snapToGrid": true,
+                    "x": 61.979011658246975,
+                    "y": -88.31150370944222
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component RM created via drag-drop",
+                    "timestamp": "2025-11-04T10:34:41",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:34:41",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:07",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:16",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:06:13",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:34:41",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "RM_4",
+            "lastAccessed": "2025-11-04T11:06:13",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "RM",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245281918",
+                "timestamp": "2025-11-04T10:34:41",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-04T11:06:13",
+                "moveCount": 0,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 4
+            },
+            "type": "RM",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:34:41",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "RTL_7": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated RTL component",
+                "documentation": "Component documentation for RTL",
+                "editable": true,
+                "keywords": [
+                    "RTL",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "RTL",
+                "tags": [
+                    "RTL",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connections": {
+                "connectionCount": 1,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:50",
+                        "sourceId": "Transactor_5",
+                        "sourcePort": {
+                            "x": 100,
+                            "y": 133.33333333333334
+                        },
+                        "wireId": "wire_Transactor_5_RTL_7_1762247090200"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:50",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:20",
+                        "targetId": "Transactor_5",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 133.33333333333334
+                        },
+                        "wireId": "wire_RTL_7_Transactor_5_1762247060554"
+                    },
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:23",
+                        "targetId": "Transactor_5",
+                        "targetPort": {
+                            "x": 100,
+                            "y": 133.33333333333334
+                        },
+                        "wireId": "wire_RTL_7_Transactor_5_1762247063359"
+                    }
+                ],
+                "totalConnections": 1
+            },
+            "created": "2025-11-04T11:03:56",
+            "createdTimestamp": 1762247036929,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": 60.04753934398758,
+                    "originalY": 303.4601049173002,
+                    "x": 60.04753934398758,
+                    "y": 303.4601049173002
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T11:03:56",
+                "droppedAtTimestamp": 1762247036935,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 1026,
+                    "y": 778
+                },
+                "snapToGrid": false,
+                "sourceComponent": "RTL"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": 60.04753934398758,
+                    "originalY": 303.4601049173002,
+                    "snapToGrid": true,
+                    "x": 68.78404196692009,
+                    "y": 315.37351758493537
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component RTL created via drag-drop",
+                    "timestamp": "2025-11-04T11:03:56",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:03:56",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (60.8418, 303.46)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (74.3436, 303.46)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (92.6109, 301.872)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (98.9647, 301.077)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (115.643, 298.695)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (117.232, 297.901)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (120.409, 296.312)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (120.409, 297.106)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (120.409, 297.901)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (120.409, 300.283)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (117.232, 305.843)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (115.643, 307.431)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (110.878, 312.991)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (110.084, 312.991)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (108.495, 314.579)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (106.113, 316.962)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (105.319, 316.962)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (102.142, 316.962)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (101.347, 316.962)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (99.7589, 317.756)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (96.582, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (95.7878, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (94.9935, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (94.1993, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (93.4051, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (92.6109, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (91.8166, 319.345)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (91.8166, 318.55)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (91.0224, 318.55)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (90.2282, 318.55)",
+                        "timestamp": "2025-11-04T11:03:57",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (90.2282, 317.756)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (90.2282, 316.962)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (89.434, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (88.6397, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (87.0513, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (85.4628, 312.991)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (84.6686, 312.991)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (82.2859, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (81.4917, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (80.6975, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (79.9032, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (79.109, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (78.3148, 313.785)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (77.5205, 314.579)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (76.7263, 314.579)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (75.9321, 314.579)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (75.1379, 314.579)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (72.7552, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (71.1667, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (70.3725, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (69.5783, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (68.784, 315.374)",
+                        "timestamp": "2025-11-04T11:03:58",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:20",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:23",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:50",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T11:03:56",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "RTL_7",
+            "lastAccessed": "2025-11-04T11:04:50",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "RTL",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762247036935",
+                "timestamp": "2025-11-04T11:03:56",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-04T11:04:50",
+                "moveCount": 52,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 4
+            },
+            "type": "RTL",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T11:03:56",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "Stimuler_2": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated Stimuler component",
+                "documentation": "Component documentation for Stimuler",
+                "editable": true,
+                "keywords": [
+                    "Stimuler",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "Stimuler",
+                "tags": [
+                    "Stimuler",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connectedFilePath": "C:/Users/HKhaled/Documents/SCV/stimulator.h",
+            "connections": {
+                "connectionCount": 1,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:00",
+                        "sourceId": "Stimuli_1",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 40
+                        },
+                        "wireId": "wire_Stimuli_1_Stimuler_2_1762247040052"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:01",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:01",
+                        "targetId": "Driver_3",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 40
+                        },
+                        "wireId": "wire_Stimuler_2_Driver_3_1762247041827"
+                    }
+                ],
+                "totalConnections": 1
+            },
+            "created": "2025-11-04T10:33:16",
+            "createdTimestamp": 1762245196819,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": -292.6316860970783,
+                    "originalY": 16.459838809176603,
+                    "x": -292.6316860970783,
+                    "y": 16.459838809176603
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T10:33:16",
+                "droppedAtTimestamp": 1762245196821,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 533,
+                    "y": 441
+                },
+                "snapToGrid": false,
+                "sourceComponent": "Stimuler"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": -292.6316860970783,
+                    "originalY": 16.459838809176603,
+                    "snapToGrid": true,
+                    "x": -378.2621102709494,
+                    "y": 20.489505829123473
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component Stimuler created via drag-drop",
+                    "timestamp": "2025-11-04T10:33:16",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:33:16",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-293.639, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-294.647, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-296.661, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-316.81, 15.4524)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-320.839, 15.4524)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-343.003, 14.445)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-345.017, 14.445)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-357.106, 14.445)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-359.121, 14.445)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-358.114, 14.445)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-357.106, 15.4524)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-357.106, 16.4598)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-357.106, 17.4673)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-360.129, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-361.136, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:03",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-362.143, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-364.158, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-365.166, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-366.173, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-367.181, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-373.225, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-374.232, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-377.255, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-378.262, 20.4895)",
+                        "timestamp": "2025-11-04T10:34:04",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:00",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:01",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-05T09:31:10",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:33:16",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "Stimuler_2",
+            "lastAccessed": "2025-11-05T09:31:10",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "Stimuler",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245196821",
+                "timestamp": "2025-11-04T10:33:16",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-05T09:31:10",
+                "moveCount": 24,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 4
+            },
+            "type": "Stimuler",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:33:16",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "Stimuli_1": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated Stimuli component",
+                "documentation": "Component documentation for Stimuli",
+                "editable": true,
+                "keywords": [
+                    "Stimuli",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "Stimuli",
+                "tags": [
+                    "Stimuli",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connections": {
+                "connectionCount": 1,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                ],
+                "lastConnected": "2025-11-04T11:04:00",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:00",
+                        "targetId": "Stimuler_2",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 40
+                        },
+                        "wireId": "wire_Stimuli_1_Stimuler_2_1762247040052"
+                    }
+                ],
+                "totalConnections": 1
+            },
+            "created": "2025-11-04T10:33:13",
+            "createdTimestamp": 1762245193784,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": -491.092786829462,
+                    "originalY": -3.6884962905577794,
+                    "x": -491.092786829462,
+                    "y": -3.6884962905577794
+                },
+                "dropSize": {
+                    "height": 80,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "droppedAt": "2025-11-04T10:33:13",
+                "droppedAtTimestamp": 1762245193787,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 336,
+                    "y": 421
+                },
+                "snapToGrid": false,
+                "sourceComponent": "Stimuli"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": -491.092786829462,
+                    "originalY": -3.6884962905577794,
+                    "snapToGrid": true,
+                    "x": -570.6787104734128,
+                    "y": 19.482089074136766
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 1.5,
+                    "height": 80,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 80,
+                    "originalWidth": 120,
+                    "width": 120
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component Stimuli created via drag-drop",
+                    "timestamp": "2025-11-04T10:33:13",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:33:13",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-491.093, -2.68108)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-499.152, 14.445)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-508.219, 23.5118)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-510.234, 24.5192)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-519.3, 36.6082)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-520.308, 38.623)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-522.323, 41.6453)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-523.33, 43.6601)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-525.345, 44.6675)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-526.352, 44.6675)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-527.36, 44.6675)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-535.419, 37.6156)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-536.427, 35.6008)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-538.441, 34.5933)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-542.471, 31.5711)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-543.478, 30.5637)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-547.508, 28.5488)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-548.516, 27.5414)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-551.538, 25.5266)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-553.553, 24.5192)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-554.56, 24.5192)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-556.575, 24.5192)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-558.59, 24.5192)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-563.627, 23.5118)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-564.634, 23.5118)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-565.642, 22.5043)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-566.649, 22.5043)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (-570.679, 19.4821)",
+                        "timestamp": "2025-11-04T10:34:02",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:00",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:33:13",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "Stimuli_1",
+            "lastAccessed": "2025-11-04T11:04:00",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "Stimuli",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245193787",
+                "timestamp": "2025-11-04T10:33:13",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-04T11:04:00",
+                "moveCount": 28,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 2
+            },
+            "type": "Stimuli",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:33:13",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        "Transactor_5": {
+            "appearance": {
+                "borderColor": "#000000",
+                "borderWidth": 1,
+                "color": "#6496C8",
+                "fillStyle": "solid",
+                "highlighted": false,
+                "hovered": false,
+                "opacity": 1,
+                "originalColor": "#6496C8",
+                "originalOpacity": 1,
+                "selected": false,
+                "shadowBlur": 4,
+                "shadowColor": "#000000",
+                "shadowEnabled": false,
+                "shadowOffset": {
+                    "x": 2,
+                    "y": 2
+                },
+                "visible": true
+            },
+            "componentDetails": {
+                "author": "SCV User",
+                "category": "Ready Component",
+                "description": "Auto-generated Transactor component",
+                "documentation": "Component documentation for Transactor",
+                "editable": true,
+                "keywords": [
+                    "Transactor",
+                    "logic",
+                    "digital",
+                    "component"
+                ],
+                "license": "MIT",
+                "subcategory": "Transactor",
+                "tags": [
+                    "Transactor",
+                    "ready-component",
+                    "auto-generated",
+                    "drag-drop"
+                ],
+                "version": "1.0.0"
+            },
+            "connectedFilePath": "C:/Users/HKhaled/Documents/SCV/transactor.h",
+            "connections": {
+                "connectionCount": 2,
+                "connectionHistory": [
+                ],
+                "inputConnections": [
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:08",
+                        "sourceId": "Driver_3",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 53.333333333333336
+                        },
+                        "wireId": "wire_Driver_3_Transactor_5_1762247048807"
+                    },
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:20",
+                        "sourceId": "RTL_7",
+                        "sourcePort": {
+                            "x": 120,
+                            "y": 40
+                        },
+                        "wireId": "wire_RTL_7_Transactor_5_1762247060554"
+                    },
+                    {
+                        "connectionType": "input",
+                        "created": "2025-11-04T11:04:23",
+                        "sourceId": "RTL_7",
+                        "sourcePort": {
+                            "x": 0,
+                            "y": 40
+                        },
+                        "wireId": "wire_RTL_7_Transactor_5_1762247063359"
+                    }
+                ],
+                "lastConnected": "2025-11-04T11:04:50",
+                "maxInputConnections": -1,
+                "maxOutputConnections": -1,
+                "outputConnections": [
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:14",
+                        "targetId": "Compare_6",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 53.333333333333336
+                        },
+                        "wireId": "wire_Transactor_5_Compare_6_1762247054649"
+                    },
+                    {
+                        "connectionType": "output",
+                        "created": "2025-11-04T11:04:50",
+                        "targetId": "RTL_7",
+                        "targetPort": {
+                            "x": 0,
+                            "y": 40
+                        },
+                        "wireId": "wire_Transactor_5_RTL_7_1762247090200"
+                    }
+                ],
+                "totalConnections": 2
+            },
+            "created": "2025-11-04T10:34:53",
+            "createdTimestamp": 1762245293030,
+            "dragDropInfo": {
+                "dropMethod": "drag-and-drop",
+                "dropPosition": {
+                    "originalX": 84.0680127180876,
+                    "originalY": 37.05317920811416,
+                    "x": 84.0680127180876,
+                    "y": 37.05317920811416
+                },
+                "dropSize": {
+                    "height": 200,
+                    "originalHeight": 200,
+                    "originalWidth": 100,
+                    "width": 100
+                },
+                "droppedAt": "2025-11-04T10:34:53",
+                "droppedAtTimestamp": 1762245293034,
+                "keyboardModifiers": [
+                    "",
+                    "",
+                    ""
+                ],
+                "mousePosition": {
+                    "x": 897,
+                    "y": 521
+                },
+                "snapToGrid": false,
+                "sourceComponent": "Transactor"
+            },
+            "geometry": {
+                "originalRotation": 0,
+                "position": {
+                    "originalX": 84.0680127180876,
+                    "originalY": 37.05317920811416,
+                    "snapToGrid": true,
+                    "x": 71.97901165824698,
+                    "y": 40.07542947307431
+                },
+                "rotation": 0,
+                "scale": 1,
+                "size": {
+                    "aspectRatio": 0.5,
+                    "height": 200,
+                    "maxHeight": 1000,
+                    "maxWidth": 1000,
+                    "minHeight": 50,
+                    "minWidth": 50,
+                    "originalHeight": 200,
+                    "originalWidth": 100,
+                    "width": 100
+                },
+                "transform": {
+                    "scaleX": 1,
+                    "scaleY": 1,
+                    "skewX": 0,
+                    "skewY": 0
+                },
+                "zIndex": 1
+            },
+            "history": {
+                "creationEvent": {
+                    "action": "create",
+                    "details": "Component Transactor created via drag-drop",
+                    "timestamp": "2025-11-04T10:34:53",
+                    "user": "system"
+                },
+                "modificationHistory": [
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T10:34:53",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (83.0606, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (81.0458, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (80.0383, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (79.0309, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (78.0235, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (73.9938, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (73.9938, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (72.9864, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (71.979, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (70.9716, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (65.9345, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (64.9271, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (63.9197, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (60.8974, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (59.89, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (57.8752, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (57.8752, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (56.8678, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (55.8603, 36.0458)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (53.8455, 35.0383)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (54.8529, 35.0383)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (55.8603, 35.0383)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (56.8678, 35.0383)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (57.8752, 36.0458)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (58.8826, 36.0458)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (59.89, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (60.8974, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (61.9048, 37.0532)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (61.9048, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (62.9123, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (63.9197, 38.0606)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (64.9271, 39.068)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (65.9345, 39.068)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (66.9419, 39.068)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (67.9493, 39.068)",
+                        "timestamp": "2025-11-04T10:34:54",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (67.9493, 40.0754)",
+                        "timestamp": "2025-11-04T10:34:55",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (68.9568, 40.0754)",
+                        "timestamp": "2025-11-04T10:34:55",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (69.9642, 40.0754)",
+                        "timestamp": "2025-11-04T10:34:55",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (70.9716, 40.0754)",
+                        "timestamp": "2025-11-04T10:34:55",
+                        "user": "system"
+                    },
+                    {
+                        "action": "position-update",
+                        "details": "Component moved to position (71.979, 40.0754)",
+                        "timestamp": "2025-11-04T10:34:55",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:08",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:14",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:20",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:23",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-04T11:04:50",
+                        "user": "system"
+                    },
+                    {
+                        "action": "metadata-update",
+                        "details": "Component metadata updated",
+                        "timestamp": "2025-11-05T09:30:45",
+                        "user": "system"
+                    }
+                ],
+                "versionHistory": [
+                    {
+                        "changes": "Initial creation",
+                        "timestamp": "2025-11-04T10:34:53",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            "id": "Transactor_5",
+            "lastAccessed": "2025-11-05T09:30:45",
+            "modified": "2025-11-05T09:31:10",
+            "modifiedTimestamp": 1762327870940,
+            "name": "Transactor",
+            "ports": {
+                "bidirectionalPorts": [
+                ],
+                "connectedPorts": 0,
+                "inputPorts": [
+                ],
+                "outputPorts": [
+                ],
+                "portConfiguration": "auto",
+                "totalPorts": 0
+            },
+            "properties": {
+                "copyable": true,
+                "customAttributes": {
+                },
+                "deletable": true,
+                "enabled": true,
+                "groupable": true,
+                "locked": false,
+                "metadata": {
+                    "creationMethod": "user-action",
+                    "layer": "default",
+                    "parentGroup": "",
+                    "source": "drag-drop"
+                },
+                "movable": true,
+                "priority": 0,
+                "resizable": true,
+                "rotatable": true,
+                "selectable": true,
+                "weight": 1
+            },
+            "sessionInfo": {
+                "platform": "Windows 11 Version 25H2",
+                "sessionId": "session_1762245293034",
+                "timestamp": "2025-11-04T10:34:53",
+                "userAgent": "SCV-Editor/1.0"
+            },
+            "specifications": {
+                "clockDomain": "",
+                "compiler": "SystemC",
+                "language": "C++",
+                "powerDomain": "",
+                "targetPlatform": "Generic",
+                "technology": "SystemC",
+                "temperatureRange": {
+                    "max": 125,
+                    "min": -40
+                },
+                "voltageDomain": ""
+            },
+            "statistics": {
+                "averageSessionTime": 0,
+                "connectionCount": 0,
+                "lastUsed": "2025-11-05T09:30:45",
+                "moveCount": 40,
+                "resizeCount": 0,
+                "rotateCount": 0,
+                "selectionCount": 0,
+                "usageCount": 7
+            },
+            "type": "Transactor",
+            "validation": {
+                "errors": [
+                ],
+                "lastValidated": "2025-11-04T10:34:53",
+                "status": "valid",
+                "validationRules": [
+                    "position-in-bounds",
+                    "size-within-limits",
+                    "no-overlapping-ports"
+                ],
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        }
+    },
+    "connections": [
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Stimuli_1",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Stimuler_2",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Stimuli_1",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Stimuler_2",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Stimuler_2",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Driver_3",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Stimuler_2",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Driver_3",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 26.666666666666668
+            },
+            "targetId": "RM_4",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 26.666666666666668
+            },
+            "targetId": "RM_4",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 53.333333333333336
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 66.66666666666667
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 53.333333333333336
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 66.66666666666667
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 66.66666666666667
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 53.333333333333336
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 66.66666666666667
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 53.333333333333336
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RM_4",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 26.666666666666668
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RM_4",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 26.666666666666668
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 133.33333333333334
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 133.33333333333334
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 0,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 100,
+                "y": 133.33333333333334
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 0,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 100,
+                "y": 133.33333333333334
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 133.33333333333334
+            },
+            "targetId": "RTL_7",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        {
+            "controlPoints": [
+            ],
+            "orthogonalOffset": 0,
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 133.33333333333334
+            },
+            "targetId": "RTL_7",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            }
+        }
+    ],
+    "metadata": {
+        "created": "2025-11-05T09:31:10",
+        "lastModified": "2025-11-05T09:31:10",
+        "totalComponents": 7,
+        "totalConnections": 18,
+        "totalTextItems": 0,
+        "totalWires": 9
+    },
+    "textItems": [
+    ],
+    "totalComponents": 7,
+    "version": "1.0",
+    "wires": [
+        {
+            "created": "2025-11-04T11:04:00",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Stimuli_1_Stimuler_2_1762247040052",
+            "lastModified": "2025-11-04T11:04:00",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Stimuli_1",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Stimuler_2",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:01",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Stimuler_2_Driver_3_1762247041827",
+            "lastModified": "2025-11-04T11:04:01",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Stimuler_2",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Driver_3",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:07",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Driver_3_RM_4_1762247047034",
+            "lastModified": "2025-11-04T11:04:07",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 26.666666666666668
+            },
+            "targetId": "RM_4",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:08",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Driver_3_Transactor_5_1762247048807",
+            "lastModified": "2025-11-04T11:04:08",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Driver_3",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 53.333333333333336
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 66.66666666666667
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:14",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Transactor_5_Compare_6_1762247054649",
+            "lastModified": "2025-11-04T11:04:14",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 66.66666666666667
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 53.333333333333336
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:16",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_RM_4_Compare_6_1762247056221",
+            "lastModified": "2025-11-04T11:04:16",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "RM_4",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Compare_6",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 26.666666666666668
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:20",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_RTL_7_Transactor_5_1762247060554",
+            "lastModified": "2025-11-04T11:04:20",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 120,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 133.33333333333334
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:23",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_RTL_7_Transactor_5_1762247063359",
+            "lastModified": "2025-11-04T11:04:23",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "RTL_7",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 0,
+                "y": 40
+            },
+            "targetId": "Transactor_5",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 100,
+                "y": 133.33333333333334
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        },
+        {
+            "created": "2025-11-04T11:04:50",
+            "customMetadata": {
+                "createdInSession": true,
+                "routingMode": "auto",
+                "wireManager": "registered"
+            },
+            "geometry": {
+                "controlPoints": [
+                ],
+                "orthogonalOffset": 0
+            },
+            "id": "wire_Transactor_5_RTL_7_1762247090200",
+            "lastModified": "2025-11-04T11:04:50",
+            "properties": {
+                "label": "",
+                "locked": false,
+                "routingMode": "auto",
+                "visible": true
+            },
+            "sourceId": "Transactor_5",
+            "sourceIsRTL": false,
+            "sourcePort": {
+                "x": 100,
+                "y": 133.33333333333334
+            },
+            "targetId": "RTL_7",
+            "targetIsRTL": false,
+            "targetPort": {
+                "x": 0,
+                "y": 40
+            },
+            "validation": {
+                "errors": [
+                ],
+                "status": "valid",
+                "warnings": [
+                ]
+            },
+            "version": "1.0"
+        }
+    ]
+}
